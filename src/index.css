@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Mogra&family=Montserrat&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+  height: 100vh;
+  width: 100%;
+  background: rgb(131, 58, 180);
+  background: linear-gradient(
+    90deg,
+    rgba(131, 58, 180, 1) 0%,
+    rgba(253, 70, 29, 1) 71%,
+    rgba(252, 176, 69, 1) 100%
+  );
+}
+.app {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 20px;
+  height: 100%;
+}
+.logo {
+  font-family: "Mogra", cursive;
+  color: #fff;
+  margin: 30px 0;
+  font-weight: bold;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10rem;
+}
+.content h1 {
+  color: #fff;
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+.content p {
+  color: #fff;
+  font-size: 1rem;
+  text-align: center;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1rem;
+  width: 100%;
+}
+.url-input {
+  width: 50%;
+  padding: 12px 14px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+  outline: none;
+}
+.url-output {
+  width: 50%;
+  padding: 12px 14px;
+  font-size: 1rem;
+  color: #fff;
+  text-align: center;
+}
+button {
+  width: auto;
+  padding: 12px 14px;
+  font-size: 1rem;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0);
+  border: 1px solid #fff;
+  font-weight: bold;
+  border-radius: 5px;
+  margin: 1rem 0;
+  outline: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+button:hover {
+  background-color: #fff;
+  color: rgb(144, 50, 207);
+}
+.download-btn {
+  color: #fff;
+  margin-top: 1rem;
+}
+.download-btn:hover {
+  color: rgb(140, 8, 228);
+  font-weight: bold;
+}
+footer p {
+  color: #fff;
+  text-align: center;
+  font-size: 0.8rem;
+  margin-top: 1rem;
+}
+@media screen and (max-width: 550px) {
+  content {
+    margin-top: 10rem;
+  }
+  .url-input {
+    width: 100%;
+  }
+  .content h1 {
+    font-size: 2rem;
+  }
+  .content p {
+    font-size: 0.8rem;
+  }
+}
