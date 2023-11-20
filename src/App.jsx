@@ -48,7 +48,7 @@ function App() {
       <section className="content">
         <h1 className="title">YouTube To MP3 Converter</h1>
         <p className="description">
-          Convert and download YouTube videos to MP3 format in few clicks
+          Convert and download YouTube videos in MP3 format in few clicks
         </p>
 
         <form>
