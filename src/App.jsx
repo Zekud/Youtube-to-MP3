@@ -17,6 +17,7 @@ function App() {
       return;
     }
 
+    setUrlData(null);
     setClicked(true);
     const youtube_id = youtube_parser(inputRef.current.value);
 
